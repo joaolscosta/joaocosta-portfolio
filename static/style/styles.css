@@ -20,6 +20,13 @@ body {
   display: flex;
   font-size: 23px;
   margin: 0;
+  cursor: pointer;
+}
+
+.me-btn {
+  border: none;
+  background-color: transparent;
+  color: white;
 }
 
 .topbar {
@@ -33,7 +40,7 @@ body {
   color: white;
 }
 
-/* ---------------------------- CENTER ---------------------------- */
+/* ---------------------------- INDEX - CENTER ---------------------------- */
 
 .center-top {
   display: flex;
@@ -56,6 +63,7 @@ body {
 
 .text-bold {
   font-size: 25px;
+  font-weight: 600;
 }
 
 .degree {
@@ -77,18 +85,36 @@ body {
   color: rgb(0, 0, 0);
   font-size: 15px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .round-btn {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin-left: 20px;
   border: none;
   border-radius: 50%;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 27px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+/* ---------------------------- ABOUT PAGE ---------------------------- */
+
+.page-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.page-text {
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
