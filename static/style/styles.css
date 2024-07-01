@@ -103,19 +103,15 @@ body {
 }
 
 .round-btn {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
   border: none;
   border-radius: 50%;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  font-size: 27px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
   cursor: pointer;
-  text-decoration: none;
+  padding: 6px 10px;
+  margin-left: 10px;
 }
 
 .round-btn:hover {
