@@ -1,211 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projects</title>
-        <link rel="stylesheet" href="../static/style/styles.css" />
-        <script
-            src="https://kit.fontawesome.com/092da97724.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <div class="header">
-            <a href="../index.html"
-                ><button class="me-btn">
-                    <h1 class="me">João Costa</h1>
-                </button></a
-            >
-            <div class="topbar">
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-        <p class="page-title">Projects</p>
-        <p class="page-subtitle">OPEN SOURCE CONTRIBUTIONS:</p>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">
-                    Bug Fix: Enhancing the Transparent Headbar for YouTube
-                    Chrome Extension
-                </p>
-                <p>
-                    I fixed a bug in an open-source Chrome extension for
-                    YouTube. The feature to make the headbar transparent was not
-                    looking good because it only removed the background. I
-                    improved it to look more clean and minimal when scrolling.
-                </p>
-                <p>
-                    My fix involved updating the CSS and JavaScript to ensure
-                    the headbar has a nice, consistent transparent effect. This
-                    makes the YouTube interface look better and less
-                    distracting, allowing users to enjoy their videos more.
-                </p>
-                <p>[03/2024]</p>
-                <a
-                    href="https://github.com/code-charity/youtube/pull/2100"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">
-                    Feature: Improved Shortcut Management for YouTube Extension
-                    - [05/2024]
-                </p>
-                <p>
-                    Previously, users could assign the same shortcut to multiple
-                    functions, causing confusion. We fixed this by adding a
-                    feature that alerts users if a shortcut is already in use.
-                    Now, when you choose a shortcut, the extension asks if it's
-                    okay to remove it from other functions. This prevents
-                    conflicts and aligns with how shortcuts work on other
-                    websites and apps.
-                </p>
-                <p>
-                    Instead of automatically replacing old shortcuts, the
-                    extension notifies you if a shortcut is taken. You can then
-                    decide to keep the old shortcut or assign the new one. If
-                    you choose the new one, it replaces the old assignment. Note
-                    that changes only apply after refreshing the page due to an
-                    existing bug.
-                </p>
-                <p>[05/2024]</p>
-                <a
-                    href="https://github.com/code-charity/youtube/pull/2312"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <p class="page-subtitle">FROM COLLEGE:</p>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">Computer Networks Project</p>
-                <p>
-                    This project aims to create a simple auction platform with
-                    an Auction Server (AS) and a User Application (User). The
-                    goal is to allow users to easily start, close, and
-                    participate in auctions.
-                </p>
-                <p>
-                    The AS handles auctions on a machine with a known IP and
-                    port. Multiple instances of the user application run on
-                    different machines and connect to the server over the
-                    internet. Once logged in, users can start auctions by
-                    describing the item, setting a starting price, and choosing
-                    how long the auction will last. They can also close their
-                    auctions, view auctions they've joined, or see all active
-                    auctions.
-                </p>
-                <p>
-                    Key features include bidding on auctions, viewing item
-                    images, and checking bid histories. Users can manage their
-                    accounts by logging out or unregistering from the server.
-                    Communication uses UDP for auction management and TCP for
-                    transferring item files, ensuring smooth interaction between
-                    users and the server.
-                </p>
-                <p>[01/2024]</p>
-                <a
-                    href="https://github.com/joaolscosta/RC-Project/tree/main"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">Data Base Project</p>
-                <p>
-                    In this project, we aimed to design and implement the
-                    database schema. This involved creating tables such as
-                    customers, orders, payments, employees, products, and
-                    suppliers, ensuring data integrity with complex constraints
-                    using Stored Procedures and Triggers.
-                </p>
-                <p>
-                    A crucial aspect was developing advanced SQL queries for
-                    operational and sales data analysis, providing strategic
-                    insights into customer transactions and employee
-                    performance. Additionally, I participated in developing a
-                    web application integrated with the database, using
-                    technologies like Bootstrap for user-friendly interfaces.
-                    This application offered robust functionalities for both
-                    customers and managers, simplifying navigation, product
-                    search, and order management.
-                </p>
-                <p>[06/2023]</p>
-                <a
-                    href="https://github.com/joaolscosta/BD-Project/tree/main"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <p class="page-subtitle">BY ME:</p>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">TaskMaster</p>
-                <p>
-                    TaskMaster – Your Ultimate To-Do List is a web app I made to
-                    help manage tasks easily. On the front, users can add,
-                    remove, and see their to-do items. It uses basic HTML for
-                    structure and vanilla JavaScript for making it interactive
-                    and quick to respond.
-                </p>
-                <p>
-                    For the backend, I used Flask, a simple Python framework, to
-                    handle how the app works behind the scenes. Flask is good
-                    for managing tasks like adding new ones or deleting old
-                    ones. This makes TaskMaster run smoothly and handle tasks
-                    well.
-                </p>
-                <p>[06/2024]</p>
-                <a
-                    href="https://github.com/joaolscosta/taskmaster"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-box">
-            <div class="page-text">
-                <p class="page-text-title">Calculator</p>
-                <p>
-                    A simple web-based calculator that performs basic arithmetic
-                    operations. This project includes an HTML interface, styled
-                    with CSS, and functionality provided by JavaScript.
-                </p>
-                <p>[06/2024]</p>
-                <a
-                    href="https://github.com/joaolscosta/Calculator"
-                    target="_blank"
-                >
-                    <button class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Projects</title>
+      <link rel="stylesheet" href="../static/style/styles.css" />
+      <script src="https://kit.fontawesome.com/092da97724.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="header">
+         <a href="../index.html"
+            ><button class="me-btn">
+               <h1 class="me">João Costa</h1>
+            </button></a
+         >
+         <div class="topbar">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+         </div>
+      </div>
+      <p class="page-title">Projects</p>
+      <p class="page-subtitle">OPEN SOURCE CONTRIBUTIONS:</p>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Bug Fix: Enhancing the Transparent Headbar for YouTube Chrome Extension</p>
+            <p>
+               I contributed to an open-source Chrome extension for YouTube by fixing a bug in the transparent headbar
+               feature. Previously, the effect didn’t look right because it only removed the background, leaving an
+               incomplete and messy appearance. I improved it to create a cleaner, more seamless look, especially when
+               scrolling.
+            </p>
+            <p>
+               To achieve this, I deeply analysed the code to understand how it works and after planning where I'll act,
+               I've updated the CSS and JavaScript, ensuring the transparency effect was smooth and visually consistent.
+               Now, the YouTube interface feels more modern and less distracting, allowing users to focus on their
+               videos.
+            </p>
+            <p>[03/2024]</p>
+            <a href="https://github.com/code-charity/youtube/pull/2100" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Feature: Improved Shortcut Management for YouTube Extension - [05/2024]</p>
+            <p>
+               Previously, users could assign the same shortcut to different functions, which caused confusion. We fixed
+               this by adding a feature that notifies users if a shortcut is already in use. Now, when you pick a
+               shortcut, the extension asks if you want to remove it from other functions. This prevents conflicts and
+               works the same way as other websites and apps.
+            </p>
+
+            <p>[05/2024]</p>
+            <a href="https://github.com/code-charity/youtube/pull/2312" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <p class="page-subtitle">FROM COLLEGE:</p>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Software Engineering Course Project</p>
+            <p>
+               I worked on a platform that connects volunteers with security-focused organizations. We used Java with
+               Spring Boot for the API, which handled user login and other features, and PostgreSQL for data storage.
+               For the frontend, we used Vue.js with TypeScript. I also worked in sprints to deliver the project.
+            </p>
+            <p>
+               *This project is currently private due to privacy standards imposed by my university. However, contact me
+               if you want to know more about it.*
+            </p>
+            <p>[03/2024]</p>
+         </div>
+      </div>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Network Security Project</p>
+            <p>
+               I developed a secure ticket validation system using Flask (Python) and MariaDB. The system includes TLS
+               encryption for secure communication, input validation to ensure data integrity, and encrypted WebSocket
+               communication for real-time ticket management and validation. This approach ensures that all interactions
+               within the system are secure and reliable.
+            </p>
+            <p>[01/2025]</p>
+            <a href="https://github.com/tecnico-sec/A10" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Software Security Project</p>
+            <p>
+               A static analysis tool for detecting vulnerabilities in JavaScript code developed in Python. It analyzes
+               information flow to identify illegal flows between sources, sanitizers, and sinks defined by configurable
+               patterns.
+            </p>
+            <p>[01/2025]</p>
+            <a href="https://gitlab.rnl.tecnico.ulisboa.pt/ssof2425/project/project-groups/Group30 " target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Computer Networks Project</p>
+            <p>
+               This project aims to create a simple auction platform with an Auction Server (AS) and a User Application
+               (User). The goal is to allow users to easily start, close, and participate in auctions.
+            </p>
+            <p>
+               The AS handles auctions on a machine with a known IP and port. Multiple instances of the user application
+               run on different machines and connect to the server over the internet. Once logged in, users can start
+               auctions by describing the item, setting a starting price, and choosing how long the auction will last.
+               They can also close their auctions, view auctions they've joined, or see all active auctions.
+            </p>
+            <p>
+               Key features include bidding on auctions, viewing item images, and checking bid histories. Users can
+               manage their accounts by logging out or unregistering from the server. Communication uses UDP for auction
+               management and TCP for transferring item files, ensuring smooth interaction between users and the server.
+            </p>
+            <p>[01/2024]</p>
+            <a href="https://github.com/joaolscosta/RC-Project/tree/main" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">Data Base Project</p>
+            <p>
+               In this project, we aimed to design and implement the database schema. This involved creating tables such
+               as customers, orders, payments, employees, products, and suppliers, ensuring data integrity with complex
+               constraints using Stored Procedures and Triggers.
+            </p>
+            <p>
+               A crucial aspect was developing advanced SQL queries for operational and sales data analysis, providing
+               strategic insights into customer transactions and employee performance. Additionally, I participated in
+               developing a web application integrated with the database, using technologies like Bootstrap for
+               user-friendly interfaces. This application offered robust functionalities for both customers and
+               managers, simplifying navigation, product search, and order management.
+            </p>
+            <p>[06/2023]</p>
+            <a href="https://github.com/joaolscosta/BD-Project/tree/main" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+      <p class="page-subtitle">PERSONAL PROJECTS:</p>
+      <div class="text-box">
+         <div class="page-text">
+            <p class="page-text-title">NoteIt</p>
+            <p>
+               NoteIt is a modern, full-stack note-taking application designed to help you organize your thoughts,
+               tasks, and documents. It has a clean and easy-to-use interface, built with React for the frontend and
+               Flask for the backend. With full Markdown support, you can create and format notes using headers, lists,
+               and code blocks, all while keeping a simple text-based format. The app allows you to create folders,
+               organize notes, and easily navigate through them.
+            </p>
+            <p>
+               The app also includes features for task management, allowing you to create and track tasks. Users can
+               securely sign in, customize their settings, and have a personal workspace. NoteIt provides real-time
+               updates, making collaboration easy, and has a built-in Markdown Help button for beginners to learn the
+               basics of formatting.
+            </p>
+            <p>[02/2025]</p>
+            <a href="https://github.com/joaolscosta/NoteIt" target="_blank">
+               <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+               </button>
+            </a>
+         </div>
+      </div>
+   </body>
 </html>
