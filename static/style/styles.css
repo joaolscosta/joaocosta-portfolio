@@ -196,3 +196,37 @@ body {
 .project-btn:hover {
    background-color: #4b4a4a;
 }
+
+@media (max-width: 768px) {
+   .header {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   .topbar {
+      flex-direction: column;
+      gap: 10px;
+   }
+   .page-title,
+   .page-subtitle {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 28px;
+   }
+   .text-box {
+      margin: 20px 5%;
+      padding: 15px;
+   }
+   .page-text {
+      font-size: 15px;
+   }
+   .page-text-title {
+      font-size: 18px;
+   }
+   .contact-text-box,
+   .project-btn {
+      margin: 10% 5%;
+   }
+   .project-btn {
+      font-size: 20px;
+   }
+}
